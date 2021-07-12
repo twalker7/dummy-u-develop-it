@@ -1,4 +1,4 @@
-const inputCheck = require('../u-develop-it/utils/inputCheck');
+const inputCheck = require('../utils/inputCheck'); //had to change path from '../u-develop-it/utils/inputCheck' to make it work
 
 test('inputCheck() returns null when all properties exist', () => {
   const obj = {name: 'alice'};
